@@ -18,18 +18,6 @@ import java.util.stream.IntStream;
  * Then you call "getOrDefault(searchAnagramsFor, null)" method of this hashmap and voila - you have instant answer.  
  * Because function is not calculation, it is just a mapping.
  * 
- * collectAnagrams result:
- * антиквар
- * травинка
- * Травкина
- * 77 ms
- * 
- * 
- * getOrDefault result:
- * антиквар
- * травинка
- * Травкина
- * 0 ms
  */
 
 public class Anagramer {
